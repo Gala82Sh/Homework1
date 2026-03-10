@@ -811,5 +811,8 @@ position: relative;
     z-index: 5;
         
     }
+    .games-section {
+        display: none;
+    }
 }
  
