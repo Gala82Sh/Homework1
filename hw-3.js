@@ -1,5 +1,4 @@
-{
-    console.log('--- Задание 1: Проверка пароля ---');
+
     let password = 'пароль';
     let userInput = prompt('Введите пароль'); 
     
@@ -10,11 +9,10 @@
         alert('Пароль введен неправильно');
         console.log('Пароль введен неправильно');
     }
-}
 
 
-{
-    console.log('\n--- Задание 2: Проверка числа c ---');
+
+
     let c = 2; 
     
     if (c > 0 && c < 10) {
@@ -30,11 +28,10 @@
         let result = (c > 0 && c < 10) ? 'Верно' : 'Неверно';
         console.log(`c = ${c}: ${result}`);
     });
-}
 
 
-{
-    console.log('\n--- Задание 3: Проверка d и e ---');
+
+
     let d = 50;
     let e = 150; 
     
@@ -57,10 +54,9 @@
         let result = (test.d > 100 || test.e > 100) ? 'Верно' : 'Неверно';
         console.log(`Тест ${index + 1}: d=${test.d}, e=${test.e} -> ${result}`);
     });
-}
 
-{
-    console.log('\n--- Задание 4: Преобразование типов ---');
+
+
     let a = '2';
     let b = '3';
     
@@ -68,11 +64,10 @@
     let result = Number(a) + Number(b); 
     console.log('Результат сложения:', result); 
     alert(result); 
-}
 
 
-{
-    console.log('\n--- Задание 5: Определение сезона ---');
+
+
     let monthNumber = 12; 
    
     if (monthNumber < 1 || monthNumber > 12) {
@@ -117,11 +112,10 @@
         }
         console.log(`Месяц ${month}: ${season}`);
     }
-}
 
 
-{
-    console.log('\n--- Доп. задание 1: Проверка на четность ---');
+
+
     let userNumber = prompt('Пожалуйста, введите любое число'); 
     
    
@@ -146,11 +140,10 @@
             }
         }
     }
-}
 
 
-{
-    console.log('\n--- Доп. задание 2: Определение ОС ---');
+
+
     let clientOSTask2 = 0; 
     
     if (clientOSTask2 === 0) {
@@ -170,11 +163,10 @@
             console.log('Android: Установите версию приложения для Android по ссылке');
         }
     });
-}
 
 
-{
-    console.log('\n--- Доп. задание 3: ОС + Год выпуска ---');
+
+
     let clientOSTask3 = 1; 
     let clientDeviceYear = 2015; 
     
@@ -219,6 +211,4 @@
             }
         });
     });
-}
 
-console.log('\n=== Все задания выполнены ===');

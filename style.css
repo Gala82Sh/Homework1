@@ -832,6 +832,7 @@ position: relative;
     display: flex;
     flex-direction: column;
     gap: 72px;
+    margin-top: 48px;
 }
 
 .mini-games__title {
@@ -957,6 +958,7 @@ position: relative;
 
 
 .footer {
+    height: 150px;
     width: 100%;
     background-color: #BDED35;
     padding: 24px 0; 
@@ -980,6 +982,7 @@ position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 61px;
 }
  
 .mini-games__star-7 {
@@ -1028,4 +1031,178 @@ position: relative;
     object-fit: contain;
     pointer-events: none;
     z-index: 5;
+}
+
+@media (max-width: 376px) {
+    .mini-games {
+        padding: 40px 16px 40px;
+        background-color: #000000;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .mini-games__container {
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .mini-games__title {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 100%;
+        color: #FFFFFF;
+        margin: 0;
+        width: 100%;
+        text-align: left;
+    }
+
+    .games-list {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .game-card {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        border-radius: 30px;
+        overflow: hidden;
+        background-color: #FFFFFF;
+    }
+
+    .game-card--image-left,
+    .game-card--image-right {
+        flex-direction: column;
+    }
+
+    .game-card__cover {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 343/285;
+        flex-shrink: 0;
+    }
+
+    .game-card__cover img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .game-card__content {
+        width: 100%;
+        height: auto;
+        padding: 24px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #FFFFFF;
+        box-sizing: border-box;
+    }
+
+    .game-card__inner {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        gap: 24px;
+    }
+
+    .game-card__text {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .game-card__name {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 100%;
+        color: #000000;
+        margin: 0;
+        width: 100%;
+        word-break: break-word;
+    }
+
+    .game-card__description {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .game-card__button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 186px;
+        height: 55px;
+        padding: 16px 28px;
+        border: 1px solid #000000;
+        border-radius: 60px;
+        background-color: #000000;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 142%;
+        color: #FFFFFF;
+        text-decoration: none;
+        box-sizing: border-box;
+        transition: all 0.3s ease;
+        margin-top: 0;
+    }
+
+    .game-card__button:hover {
+        background-color: #FFFFFF;
+        color: #000000;
+    }
+  
+.mini-games__star-7,
+    .mini-games__star-6,
+    .mini-games__star-10,
+    .mini-games__star-8 {
+        display: none;
+    }
+
+  
+    .footer {
+        width: 100%;
+        background-color: #BDED35;
+        padding: 16px 0;
+    }
+
+    .footer__container {
+        max-width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0 16px;
+    }
+
+    .footer__copyright {
+        
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+        margin: 0;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    
 }
