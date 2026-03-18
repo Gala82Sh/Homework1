@@ -1,7 +1,6 @@
 function startArithmeticGame() {
     alert('Добро пожаловать в игру "Простая арифметика"!');
 
-   
     const num1 = Math.floor(Math.random() * 10) + 1;
     const num2 = Math.floor(Math.random() * 10) + 1;
     const operators = ['+', '-', '*', '/'];
@@ -10,7 +9,6 @@ function startArithmeticGame() {
     let correctAnswer;
     let taskString;
 
-   
     switch (randomOperator) {
         case '+':
             correctAnswer = num1 + num2;
@@ -31,7 +29,6 @@ function startArithmeticGame() {
             break;
     }
 
-   
     const userAnswer = prompt(`Решите задачу: ${taskString}`);
 
     if (userAnswer === null) {
@@ -39,7 +36,6 @@ function startArithmeticGame() {
         return;
     }
 
-   
     const parsedUserAnswer = parseFloat(userAnswer.replace(',', '.'));
 
     if (isNaN(parsedUserAnswer)) {
@@ -58,6 +54,3 @@ document.getElementById('game-simple-arithmetic')?.querySelector('.game-card__bu
 });
 
 
-document.querySelector('a[href="#game-simple-arithmetic"]')?.addEventListener('click', () => {
-    setTimeout(startArithmeticGame, 100);
-});
