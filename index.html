@@ -270,11 +270,83 @@
     script src="hw-5.js"></script>
     script src="hw-6.js"></script>
     script src="hw-7.js"></script>
-     <script src="hw-8.js"></script>
+    script src="hw-8.js"></script>
+    <script src="hw-9.js"></script>
     <script src="guess-number.js"></script>
-     <script src="Simple-arithmetic.js"></script>
+    <script src="Simple-arithmetic.js"></script>
     <script src="ReverseText.js"></script>
     <script src="Quiz.js"></script>
     <script src="Choice.js"></script>
+   
+
+   
+<section class="hw-section" style="background: #f5f5f5; padding: 40px 20px; margin-top: 40px; border-top: 2px solid #ddd;">
+    <div class="hw-container" style="max-width: 1200px; margin: 0 auto;">
+        <h2 style="font-size: 28px; margin-bottom: 30px;">Домашнее задание №9</h2>
+        
+      
+        <div class="task task-1" style="margin-bottom: 30px; padding: 20px; background: white; border-radius: 12px;">
+            <h3>Задание 1. Скрытие и показ текста</h3>
+            <h1 id="task1-header">Заголовок, который можно скрыть</h1>
+            <button id="toggleTextBtn" style="padding: 10px 20px; background: black; color: white; border: none; border-radius: 8px; cursor: pointer;">Скрыть</button>
+        </div>
+        
+        
+        <div class="task task-2" style="margin-bottom: 30px; padding: 20px; background: white; border-radius: 12px;">
+            <h3>Задание 2. Изменение стиля элемента</h3>
+            <p id="colorChangeParagraph">Текст, цвет которого изменится при нажатии на кнопку.</p>
+            <button id="changeColorBtn" style="padding: 10px 20px; background: black; color: white; border: none; border-radius: 8px; cursor: pointer;">Изменить цвет</button>
+        </div>
+        
+       
+        <div class="task task-3" style="margin-bottom: 30px; padding: 20px; background: white; border-radius: 12px;">
+            <h3>Задание 3. Динамическое изменение текста</h3>
+            <h1 id="changeTextHeader">Исходный текст заголовка</h1>
+            <button id="changeTextBtn" style="padding: 10px 20px; background: black; color: white; border: none; border-radius: 8px; cursor: pointer;">Изменить текст</button>
+        </div>
+        
+        
+        <div class="task task-4" style="margin-bottom: 30px; padding: 20px; background: white; border-radius: 12px;">
+            <h3>Задание 4. Поиск и изменение элементов по классу</h3>
+            <p class="description">Первый элемент</p>
+            <p class="description">Второй элемент</p>
+            <p class="description">Третий элемент</p>
+            <p>Элемент не имеет класса description</p>
+            <button id="changeDescriptionBtn" style="padding: 10px 20px; background: black; color: white; border: none; border-radius: 8px; cursor: pointer;">Изменить все description</button>
+        </div>
+        
+        
+        <div class="task task-5" style="margin-bottom: 30px; padding: 20px; background: white; border-radius: 12px;">
+            <h3>Задание 5. Работа с querySelectorAll</h3>
+            <p class="description">Абзац 1</p>
+            <p class="description">Абзац 2</p>
+            <p>Абзац 3 без класса description</p>
+            <p class="description">Абзац 4</p>
+            <button id="changeAllDescriptionBtn" style="padding: 10px 20px; background: black; color: white; border: none; border-radius: 8px; cursor: pointer;">Изменить текст всех description</button>
+        </div>
+        
+       
+        <div class="task task-6" style="margin-bottom: 30px; padding: 20px; background: white; border-radius: 12px;">
+            <h3>Задание 6. Добавление нового элемента в DOM</h3>
+            <div id="appendContainer">
+                <p>Существующий абзац</p>
+            </div>
+            <button id="addElementBtn" style="padding: 10px 20px; background: black; color: white; border: none; border-radius: 8px; cursor: pointer;">Добавить элемент</button>
+        </div>
+        
+       
+        <div class="task task-7" style="margin-bottom: 30px; padding: 20px; background: white; border-radius: 12px;">
+            <h3>Задание 7. Удаление элемента</h3>
+            <div id="deleteContainer">
+                <p class="description-del">Первый абзац</p>
+                <p class="description-del">Второй абзац</p>
+                <p>Третий абзац без класса</p>
+                <p class="description-del">Четвёртый абзац</p>
+            </div>
+            <button id="deleteElementBtn" style="padding: 10px 20px; background: black; color: white; border: none; border-radius: 8px; cursor: pointer;">Удалить первый description-del</button>
+        </div>
+    </div>
+</section>
+
    </body>
 </html>
