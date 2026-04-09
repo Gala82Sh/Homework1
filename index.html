@@ -1,11 +1,352 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Домашнее задание 1</title>
+    <title>Сайт мини-игр</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <section class="hero">
+             <img src="image/Star2.png" alt="звезда" class="decor-star star-2">
+        <img src="image/Star3.png" alt="звезда" class="decor-star star-3">
+        <img src="image/Star4.png" alt="звезда" class="decor-star star-4">
+        <img src="image/Star5.png" alt="звезда" class="decor-star star-5">
+        <img src="image/528.png" alt="декоративный элемент" class="decor-star vector-33">
+        <div class="hero-center">
+        <div class="image-block">
+            <img src="image/Group(1).png" alt="Описание изображения">
+        </div>
+   
+        <div class="container">
+            <div class="text-block">
+                <h1>Добро пожаловать <br>на мой сайт мини-игр</h1>
+                <p class="game-description">Тебе предстоит пройти несколько увлекательных игр. <br>Если готов, нажимай
+                    «<span class="bold">Поехали!</span>» и  <span class="bold"> приступай</span>.
+                </p>
+            </div>
+            <a href="#" class="btn">Поехали!</a>
+        </div>
+        </div>
+        
+        <div class="games-row">
+            <div class="games-track">
+                <span class="game-item">ВИКТОРИНА</span>
+                <span class="divider-star">
+                    <img src="image/Star.png" alt="звезда">
+                </span>
+                <span class="game-item">УГАДАЙ ЧИСЛО</span>
+                <span class="divider-star">
+                    <img src="image/Star.png" alt="звезда">
+                </span>
+                <span class="game-item">ПЕРЕВЕРНИ ТЕКСТ</span>
+                <span class="divider-star">
+                    <img src="image/Star.png" alt="звезда">
+                </span>
+                <span class="game-item">ПРОСТАЯ АРИФМЕТИКА</span>
+                <span class="divider-star">
+                    <img src="image/Star.png" alt="звезда">
+                </span>
+                <span class="game-item">КАМЕНЬ, НОЖНИЦЫ, БУМАГА</span>
+                <span class="divider-star">
+                    <img src="image/Star.png" alt="звезда">
+                </span>
+                <span class="game-item">ГЕНЕРАТОР СЛУЧАЙНЫХ ЦВЕТОВ</span>
+                <span class="divider-star">
+                    <img src="image/Star.png" alt="звезда">
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <section class="games-section">
+        <div class="games-center">
+        <img src="image/Star1.png" alt="звезда" class="decor-star games-star-1">
+        <img src="image/Star12.png" alt="звезда" class="decor-star games-star-12">
+        <img src="image/Star11.png" alt="звезда" class="decor-star games-star-11">
+      
+        <div class="games-container">
+            <div class="games-header">
+                <h2>Об играх</h2>
+                <p>В моей коллекции представлено 6 игр на разные темы. Игры несложные --- в них может поиграть каждый. Все
+                    игры доступны для пользования.</p>
+            </div>
+            <div class="columns-wrapper">
+                <div class="cards-column first-column">
+                    <a href="#game-guess-number" class="card-link">
+                        <div class="card card--guess-number">
+                            <div class="card__image">
+                                <img src="image/1.png" alt="Угадай число">
+                            </div>
+                            <div class="card__content">
+                                <span class="card__badge">ИГРА №1</span>
+                                <div class="card__title">Угадай число</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#game-rock-paper-scissors" class="card-link">
+                        <div class="card card--rps">
+                            <div class="card__image">
+                                <img src="image/4.png" alt="Камень, ножницы, бумага">
+                            </div>
+                            <div class="card__content">
+                                <span class="card__badge">ИГРА №4</span>
+                                <div class="card__title">Камень,<br>ножницы, бумага</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cards-column second-column">
+                    <a href="#game-simple-arithmetic" class="card-link">
+                        <div class="card card--arithmetic">
+                            <div class="card__image">
+                                <img src="image/2.png" alt="Простая арифметика">
+                            </div>
+                            <div class="card__content">
+                                <span class="card__badge card__badge--wide">ИГРА №2</span>
+                                <div class="card__title">Простая<br>арифметика</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#game-quiz" class="card-link">
+                        <div class="card card--quiz">
+                            <div class="card__image">
+                                <img src="image/5.png" alt="Простая викторина">
+                            </div>
+                            <div class="card__content">
+                                <span class="card__badge">ИГРА №5</span>
+                                <div class="card__title">Простая<br>викторина</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cards-column third-column">
+                    <a href="#game-reverse-text" class="card-link">
+                        <div class="card card--reverse-text">
+                            <div class="card__image">
+                                <img src="image/3.png" alt="Переверни текст">
+                            </div>
+                            <div class="card__content">
+                                <span class="card__badge">ИГРА №3</span>
+                                <div class="card__title">Переверни<br>текст</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#game-color-generator" class="card-link">
+                        <div class="card card--color-generator">
+                            <div class="card__image">
+                                <img src="image/6.png" alt="Генератор случайных цветов">
+                            </div>
+                            <div class="card__content">
+                                <span class="card__badge">ИГРА №6</span>
+                                <div class="card__title">Генератор<br>случайных<br>цветов</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+     <section class="mini-games">
+        <img src="image/Star7.png" alt="звезда" class="decor-star mini-games__star-7">
+    <img src="image/Star6.png" alt="звезда" class="decor-star mini-games__star-6">
+    <img src="image/Star10.png" alt="звезда" class="decor-star mini-games__star-10">
+    <img src="image/Star8.png" alt="звезда" class="decor-star mini-games__star-8">
+        <div class="mini-games__container">
+            <h2 class="mini-games__title">Мини-игры</h2>
+            
+            <div class="games-list">
+               
+                <article id="game-guess-number" class="game-card game-card--image-left">
+                    <div class="game-card__cover">
+                        <img src="image/1.png" alt="Угадай число">
+                    </div>
+                    <div class="game-card__content">
+                        <div class="game-card__inner">
+                        <div class="game-card__text">
+                            <h3 class="game-card__name">Угадай число</h3>
+                            <p class="game-card__description">Попробуй угадать случайное число от 1 до 100.</p>
+                        </div>
+                        <a href="#" class="game-card__button">Играть!</a>
+                    </div>
+                    </div>
+                </article>
+
+                
+                <article id="game-simple-arithmetic" class="game-card game-card--image-right">
+                    <div class="game-card__cover">
+                        <img src="image/2.png" alt="Простая арифметика">
+                    </div>
+                    <div class="game-card__content">
+                        <div class="game-card__inner">
+                        <div class="game-card__text">
+                            <h3 class="game-card__name">Простая арифметика</h3>
+                            <p class="game-card__description">Попробуй решить простые арифметические задачи.</p>
+                        </div>
+                        <a href="#" class="game-card__button">Играть!</a>
+                    </div>
+                    </div>
+                </article>
+
+                
+                <article id="game-reverse-text" class="game-card game-card--image-left">
+    <div class="game-card__cover">
+        <img src="image/3.png" alt="Переверни текст">
+    </div>
+    <div class="game-card__content">
+        <div class="game-card__inner">
+            <div class="game-card__text">
+                <h3 class="game-card__name">Переверни текст</h3>
+                <p class="game-card__description">Попробуй ввести текст, который будет перевернут.</p>
+            </div>
+            <a href="#" class="game-card__button" id="reverse-text-btn">Играть!</a>
+        </div>
+    </div>
+</article>
+
+              
+                <article id="game-rock-paper-scissors" class="game-card game-card--image-right">
+                    <div class="game-card__cover">
+                        <img src="image/4.png" alt="Камень, ножницы, бумага">
+                    </div>
+                    <div class="game-card__content">
+                        <div class="game-card__inner">
+                        <div class="game-card__text">
+                            <h3 class="game-card__name">Камень, <br> ножницы, <br> бумага</h3>
+                            <p class="game-card__description">Сыграй в популярную игру против компьютера.</p>
+                        </div>
+                        <a href="#" class="game-card__button">Играть!</a>
+                    </div>
+                    </div>
+                </article>
+
+             
+                <article id="game-quiz" class="game-card game-card--image-left">
+    <div class="game-card__cover">
+        <img src="image/5.png" alt="Простая викторина">
+    </div>
+    <div class="game-card__content">
+        <div class="game-card__inner">
+            <div class="game-card__text">
+                <h3 class="game-card__name">Простая викторина</h3>
+                <p class="game-card__description">Отвечай на вопросы викторины с вариантами ответов.</p>
+            </div>
+            <a href="#" class="game-card__button" id="quiz-btn">Играть!</a>
+        </div>
+    </div>
+</article>
+
+               
+                <article id="game-color-generator" class="game-card game-card--image-right">
+                    <div class="game-card__cover">
+                        <img src="image/6.png" alt="Генератор случайных цветов">
+                    </div>
+                    <div class="game-card__content">
+                        <div class="game-card__inner">
+                        <div class="game-card__text">
+                            <h3 class="game-card__name">Генератор случайных <br> цветов</h3>
+                            <p class="game-card__description">Игра, в которой при клике на кнопку фон страницы меняется на случайный.</p>
+                        </div>
+                        <a href="#" class="game-card__button">Играть!</a>
+                    </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
     
-</body>
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="footer__copyright">Все права защищены.</p>
+        </div>
+    </footer>
+
+    script src="script.js" ></script>
+    script src="hw-3.js" ></script> 
+    script src="hw-4.js"></script> 
+    script src="hw-5.js"></script>
+    script src="hw-6.js"></script>
+    script src="hw-7.js"></script>
+    script src="hw-8.js"></script>
+    <script src="hw-9.js"></script>
+    <script src="guess-number.js"></script>
+    <script src="Simple-arithmetic.js"></script>
+    <script src="ReverseText.js"></script>
+    <script src="Quiz.js"></script>
+    <script src="Choice.js"></script>
+   
+
+   
+<section class="hw-section" style="background: #f5f5f5; padding: 40px 20px; margin-top: 40px; border-top: 2px solid #ddd;">
+    <div class="hw-container" style="max-width: 1200px; margin: 0 auto;">
+        <h2 style="font-size: 28px; margin-bottom: 30px;">Домашнее задание №9</h2>
+        
+      
+        <div class="task task-1" style="margin-bottom: 30px; padding: 20px; background: white; border-radius: 12px;">
+            <h3>Задание 1. Скрытие и показ текста</h3>
+            <h1 id="task1-header">Заголовок, который можно скрыть</h1>
+            <button id="toggleTextBtn" style="padding: 10px 20px; background: black; color: white; border: none; border-radius: 8px; cursor: pointer;">Скрыть</button>
+        </div>
+        
+        
+        <div class="task task-2" style="margin-bottom: 30px; padding: 20px; background: white; border-radius: 12px;">
+            <h3>Задание 2. Изменение стиля элемента</h3>
+            <p id="colorChangeParagraph">Текст, цвет которого изменится при нажатии на кнопку.</p>
+            <button id="changeColorBtn" style="padding: 10px 20px; background: black; color: white; border: none; border-radius: 8px; cursor: pointer;">Изменить цвет</button>
+        </div>
+        
+       
+        <div class="task task-3" style="margin-bottom: 30px; padding: 20px; background: white; border-radius: 12px;">
+            <h3>Задание 3. Динамическое изменение текста</h3>
+            <h1 id="changeTextHeader">Исходный текст заголовка</h1>
+            <button id="changeTextBtn" style="padding: 10px 20px; background: black; color: white; border: none; border-radius: 8px; cursor: pointer;">Изменить текст</button>
+        </div>
+        
+        
+        <div class="task task-4" style="margin-bottom: 30px; padding: 20px; background: white; border-radius: 12px;">
+            <h3>Задание 4. Поиск и изменение элементов по классу</h3>
+            <p class="description">Первый элемент</p>
+            <p class="description">Второй элемент</p>
+            <p class="description">Третий элемент</p>
+            <p>Элемент не имеет класса description</p>
+            <button id="changeDescriptionBtn" style="padding: 10px 20px; background: black; color: white; border: none; border-radius: 8px; cursor: pointer;">Изменить все description</button>
+        </div>
+        
+        
+        <div class="task task-5" style="margin-bottom: 30px; padding: 20px; background: white; border-radius: 12px;">
+            <h3>Задание 5. Работа с querySelectorAll</h3>
+            <p class="description">Абзац 1</p>
+            <p class="description">Абзац 2</p>
+            <p>Абзац 3 без класса description</p>
+            <p class="description">Абзац 4</p>
+            <button id="changeAllDescriptionBtn" style="padding: 10px 20px; background: black; color: white; border: none; border-radius: 8px; cursor: pointer;">Изменить текст всех description</button>
+        </div>
+        
+       
+        <div class="task task-6" style="margin-bottom: 30px; padding: 20px; background: white; border-radius: 12px;">
+            <h3>Задание 6. Добавление нового элемента в DOM</h3>
+            <div id="appendContainer">
+                <p>Существующий абзац</p>
+            </div>
+            <button id="addElementBtn" style="padding: 10px 20px; background: black; color: white; border: none; border-radius: 8px; cursor: pointer;">Добавить элемент</button>
+        </div>
+        
+       
+        <div class="task task-7" style="margin-bottom: 30px; padding: 20px; background: white; border-radius: 12px;">
+            <h3>Задание 7. Удаление элемента</h3>
+            <div id="deleteContainer">
+                <p class="description-del">Первый абзац</p>
+                <p class="description-del">Второй абзац</p>
+                <p>Третий абзац без класса</p>
+                <p class="description-del">Четвёртый абзац</p>
+            </div>
+            <button id="deleteElementBtn" style="padding: 10px 20px; background: black; color: white; border: none; border-radius: 8px; cursor: pointer;">Удалить первый description-del</button>
+        </div>
+    </div>
+</section>
+
+   </body>
 </html>
